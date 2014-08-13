@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   
   # Notation for OneMonthRails tutorial
   devise_for :users
-  root "pages#home" # creates the root_path
+  #root "pages#home" # creates the root_path via One month rails method
+  root to: 'pages#home'
   get "about" => "pages#about" # creates the about_path
 
 
