@@ -1,0 +1,68 @@
+<% content_for :chapters do %>
+    <%= stylesheet_link_tag 'chapters.css' %>  
+<% end %>
+
+<%= render 'pages/chapters_header' %>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<h2 class="section-header section-index-top-header emphasis">Conformational Representation</h2>
+				<p>•	Alkanes can be viewed from different angles. Below are several 3D orientations for ethane.<br>
+				<%= image_tag "ch301-Sawhorse-Newman Drawings.png", size: "375x260", class: "center-img" %>
+				•	As we rotate ethane (1) and lay the molecule flat (2) hydrogen atoms rearrange themselves (3) to prevent crowding or to alleviate torsional strain.<br>
+				•	If we continue to rotate ethane (4) until we look at the carbons head on we get to (5). To better visualize the carbons located in the front and back, we redraw the molecule to look like (6).<br>
+				•	Representation #3 is called a sawhorse drawing.<br>
+				•	Representation #6 is called a Newman projection. A point represents the front carbon and the circle represents the back carbon.<br>
+				•	These representations are used to understand how atoms on a molecule orient themselves in space.<br>
+				</p>
+
+				<h2 class="section-header section-index-top-header emphasis">Conformations of Alkanes</h2>
+				<p>• Ethane has no distinct conformations. However once we encounter higher numbered alkanes distinct conformations can occur.<br>
+				•	Butane molecules can have two distinct conformations: staggered and eclipsed.<br>
+				<%= image_tag "ch302-three-conformations.png", size: "425x190", class: "center-img" %>
+				•	Here we see the two conformations of butane along the C2-C3 bond.<br>
+				•	Methyl groups rotated 0° relative to each other exist in the syn conformation (left).<br>
+				•	Methyl groups rotated 180° relative to each other exist in the anti conformation (center).<br>
+				•	Methyl groups rotated 60° relative to each other exist in the gauche conformation (right).<br>
+				•	The staggered conformations are more stable than eclipsed therefore all molecules exist as a staggered variants.<br>
+
+
+				</p>
+
+				<h2 class="section-header section-index-top-header emphasis">Conformational Analysis of Cyclohexane</h2>
+				<p>• Cyclohexane has a couple of interesting conformational structures.<br>
+				<%= image_tag "ch303-representations of cyclohexane.png", size: "425x155" , class: "center-img" %>
+				•	The center figure is called the chair conformation. This is its most stable conformation.<br>
+				•	Since carbon has a tetrahedral molecular shape when bonded to four other species, the chair conformation has two other plains.<br>
+				<%= image_tag "ch304-axial-cyclohexane.png", size: "425x145", class: "center-img" %>
+				•	The bonds drawn at the labeled carbons are in the axial position. There we have axial hydrogens.<br>
+				•	As we draw the rest of the axial bonds we must take care to alternate the bonds above and below the ring to alleviate torsional strain.<br>
+				<%= image_tag "ch305-equatorial-cyclohexane.png", size: "395x130", class: "center-img" %>
+				•	The same method must be applied for the equatorial bonds.<br>
+				•	Now all we need to do is add some substituents.<br>
+				<%= image_tag "ch306-cyclohexane and substituents.png", size: "190x120", class: "center-img" %>
+				•	The methyl and ethyl group are pretty bulky compared to hydrogen. Their axial position causes some strain on the molecules stability.<br>
+				•	Cyclohexane molecules often have undergo chair-chair interconversions to which converts all axial bonds to equatorial bonds and vice-versa to achieve a more stable chair conformation.<br>
+				<%= image_tag "ch307-chair-interconversions.png", size: "425x150", class: "center-img" %>
+				•	The bulkier groups prefer to be equatorial.<br>
+				</p>
+
+
+				<h2 class="section-header section-index-top-header emphasis">Stereoisomers</h2>
+				<p>• Stereoisomers are molecules that have their bond connectivity in the same order but their spatial arrangement is different.<br>
+				<%= image_tag "ch308-cis-and-trans.png", size: "330x130", class: "center-img" %>
+				•	The left figure has methyl groups on the same side to we say they are cis.<br>
+				•	The methyl groups on the right figure on the opposite side so they are trans.<br>
+				<%= image_tag "ch306-cyclohexane and substituents.png", size: "190x120", class: "center-img" %>
+				•	In cyclohexane, the methyl and ethyl groups have a cis relationship because they are on the same side of the ring molecule.<br>
+				•	The relationship between methyl and hydrogen is trans because they are on opposite sides of the ring.<br>
+				•	In many case trans is the more stable conformation because the molecules are not under any torsional strain.<br>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
