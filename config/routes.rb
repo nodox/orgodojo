@@ -8,12 +8,14 @@ Rails.application.routes.draw do
 
 
   # Notation from RoR tutorial sample_app
+  match '/soon', to: 'pages#soon', via: 'get'
   match '/chapter1', to: 'pages#chapter1', via: 'get'
   match '/chapter2', to: 'pages#chapter2', via: 'get'
   match '/chapter3', to: 'pages#chapter3', via: 'get'
   match '/chapter4', to: 'pages#chapter4', via: 'get'
   match '/chapter5', to: 'pages#chapter5', via: 'get'
   match '/chapter6', to: 'pages#chapter6', via: 'get'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

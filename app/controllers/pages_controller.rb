@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def about
   end
 
+  def soon
+  end
+
   def chapter1
   end
 
