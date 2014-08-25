@@ -1,13 +1,11 @@
-<% content_for :chapters do %>
-    <%= stylesheet_link_tag 'chapters.css' %>  
-<% end %>
 
 <%= render 'pages/chapters_header' %>
 
 
-	<div class="container">
+	<div class="container text-color">
 		<div class="row">
 			<div class="col-md-12">
+				<h1 class="center"> Chapter 1</h1>
 
 				<h2 class="section-header section-index-top-header emphasis">Preface</h2>
 				<p>We belive familiarity builds confidence. We believe simple and straightforward lessons are most effective. We consolidate all the resources you need one place so you do not have to distract yourself with endless Google searches. We believe that strenthening fundamentals are at the core of student success in the classroom</p>
@@ -70,5 +68,15 @@
 				</p>
 			</div>
 		</div>
+		<ul class="pager">
+		  <li class="previous">
+		  	<%= link_to "Back", root_path , class: "text-left" %>
+		  </li>
+		  <li class="next">
+		  	<%= link_to "Next", chapter2_path, class: "text-right" %>
+		  </li>
+		</ul>
 	</div>
+
+
 

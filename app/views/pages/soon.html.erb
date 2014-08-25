@@ -4,8 +4,19 @@
 
 <%= render 'layouts/header' %>
 
-<div class="container-fluid center">
-  <h1>More Chapters Coming Soon!</h1>
-  <p></p>
+<div class="jumbotron text-color">
+	<div class="container center">
+	  <h1>More Chapters Coming Soon!</h1>
+	  <div class="container">
+			<ul class="pager">
+			  <li class="previous">
+			  	<%= link_to "Back", chapter4_path, class: "text-left" %>
+			  </li>
+			  <li class="next">
+			  	<%= link_to "Home", root_path, class: "text-left" %>
+			  </li>
+			</ul>
+		</div>
+	</div>
 </div>
 

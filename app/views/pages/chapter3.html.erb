@@ -1,13 +1,11 @@
-<% content_for :chapters do %>
-    <%= stylesheet_link_tag 'chapters.css' %>  
-<% end %>
 
 <%= render 'pages/chapters_header' %>
 
 
-	<div class="container">
+	<div class="container text-color">
 		<div class="row">
 			<div class="col-md-12">
+				<h1 class="center"> Chapter 3</h1>
 
 				<h2 class="section-header section-index-top-header emphasis">Conformational Representation</h2>
 				<p>•	Alkanes can be viewed from different angles. Below are several 3D orientations for ethane.<br>
@@ -64,5 +62,13 @@
 
 			</div>
 		</div>
+		<ul class="pager">
+		  <li class="previous">
+		  	<%= link_to "Back", chapter2_path, class: "text-left" %>
+		  </li>
+		  <li class="next">
+		  	<%= link_to "Next", chapter4_path, class: "text-right" %>
+		  </li>
+		</ul>
 	</div>
 
