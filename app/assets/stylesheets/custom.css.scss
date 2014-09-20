@@ -195,11 +195,21 @@ footer h3 {
 
 /* Advertisment View */
 
-.ad-space {
-	border-bottom-width: 1px;
-	border-bottom-style: solid; 
+.test {
+	background-color: red;
+	position: relative;
+	top: 68px;
+	left: 73.5px;
+}
 
+.wider {
+	margin-left: 50px;
 	margin-right: 50px;
+
+}
+
+.extend-right {
+	width: 900px;
 }
 
 
