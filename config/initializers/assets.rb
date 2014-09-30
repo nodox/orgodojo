@@ -1,1 +1,1 @@
-Rails.application.config.assets.precompile += %w( custom.css , chapters.css  )
+Rails.application.config.assets.precompile += %w( custom.css ,jquery.sticky-kit.min.js  )

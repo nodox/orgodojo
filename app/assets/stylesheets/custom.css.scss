@@ -193,23 +193,51 @@ footer h3 {
 	cursor: pointer;
 }
 
+
+.chapter-select {
+	/* @ 705px of the document the pagers misalign with the form select menu */
+
+	margin-left: 10%;
+	margin-right: auto;
+
+
+
+
+
+	/* margin: 0 auto; --> centers objects also with float: none */
+}
+
+
+
 /* Advertisment View */
 
-.test {
+#ad {
+	position: fixed;
+	background: red;
+	top: 5.2em;
+	left: auto;
+	right: 5%;
+	width: 300px;
+	height: 300px;
+}
+
+.col-md-9{
+	width: calc(100% - 310px);
+}
+
+#row-wrapper{
 	position: relative;
-	top: 68px;
-	left: 73.5px;
 }
 
-.wider {
-	margin-left: 50px;
-	margin-right: 50px;
-
+#wrapper{
+	width: 90% !important;
 }
 
-.extend-right {
-	width: 900px;
+.container{
+	width: 90% !important;
 }
+
+
 
 
 

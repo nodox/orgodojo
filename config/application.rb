@@ -22,5 +22,6 @@ module Orgodojo
 
     #required for devise/heroku
     config.assets.initialize_on_precompile = false
+
   end
 end
