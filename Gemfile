@@ -34,8 +34,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
 
-# gem for google adsense
-gem 'ads-rails', :git => "git://github.com/museways/ads-rails"
+
+gem 'ads-rails'
 
 
 group :development, :test do
