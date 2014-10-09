@@ -211,13 +211,14 @@ footer h3 {
 
 /* Advertisment View */
 
-#ad {
+.ad {
 	position: fixed;
-	/* background: red; */
 	margin-top: 5.1em;
 	left: auto;
 	right: 5%;
-	/* width: 300px;
+
+/* 	background: red;
+	width: 300px;
 	height: 250px; */
 }
 
@@ -226,7 +227,7 @@ footer h3 {
 	width: calc(100% - 310px);
 }
 
-#row-wrapper{
+.row-wrapper{
 	position: relative;
 
 }
