@@ -214,12 +214,13 @@ footer h3 {
 #ad {
 	position: fixed;
 	background: red;
-	top: 5.2em;
+	margin-top: 5.1em;
 	left: auto;
 	right: 5%;
 	width: 300px;
-	height: 300px;
+	height: 250px;
 }
+
 
 .col-md-9{
 	width: calc(100% - 310px);
@@ -227,9 +228,10 @@ footer h3 {
 
 #row-wrapper{
 	position: relative;
+
 }
 
-#wrapper{
+.wrapper{
 	width: 90% !important;
 }
 
