@@ -212,18 +212,18 @@ footer h3 {
 /* Advertisment View */
 
 .custom-position {
-	position: fixed;
+	/* position: fixed; */
 	margin-top: 5.1em;
-	left: auto;
-	right: 5%;
+	left: 0%;
+	right: 0%;
 
-/* 	background: red;
+	background: red;
 	width: 300px;
-	height: 250px; */
+	height: 250px;
 }
 
 
-.col-md-9{
+.col-md-9 {
 	width: calc(100% - 330px);
 }
 
