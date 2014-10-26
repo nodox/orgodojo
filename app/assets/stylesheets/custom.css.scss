@@ -213,10 +213,10 @@ footer h3 {
 /* Tell talyor you want Ads in an unordered list -- linkedin whos viewed your profile section */
 
 .custom-position {
-	/* position: fixed; */
+	position: fixed;
 	margin-top: 5.1em;
-	left: 0%;
-	right: 0%;
+	/* left: 0%; */ 
+	right: 3%;
 
 	background: red;
 	width: 300px;
