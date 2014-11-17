@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   match '/chapter5', to: 'pages#chapter5', via: 'get'
   match '/chapter6', to: 'pages#chapter6', via: 'get'
   match '/chapter7', to: 'pages#chapter7', via: 'get'
+  match '/chapter8', to: 'pages#chapter8', via: 'get'
   match '/test', to: 'pages#test', via: 'get'
 
 
