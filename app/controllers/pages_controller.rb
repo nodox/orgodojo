@@ -37,6 +37,12 @@ class PagesController < ApplicationController
   def chapter8
   end
 
+  def chapter9
+  end
+
+  def chapter10
+  end
+
   def test
   end
 end
