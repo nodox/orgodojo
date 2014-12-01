@@ -232,6 +232,10 @@ footer h3 {
 	width: 100%;
 }
 
+@media (max-width:640px) {
+  .custom-position { display: none; }
+}
+
 
 
 .col-md-9 {
