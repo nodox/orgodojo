@@ -1,0 +1,193 @@
+<!--- Chapter 7 must be up by the 10/20/14 -->
+
+
+
+
+<%= render 'pages/chapters_header' %>
+
+
+
+	<div class="container text-color">
+		<div class="row">
+			<div class="col-md-12">
+			<h1 class="center"> Chapter 7 - Stereochemistry</h1>
+
+
+			<div class="panel-group">
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseOne">
+			      <h4 class="panel-title">
+			        <a>
+			          Overview
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseOne" class="panel-collapse collapse in">
+			      <div class="panel-body">
+			        <p>
+			        • This section is all about the spatial properties of organic molecules.<br>
+							•	Some molecules exist as a pair of mirror images that can or cannot be superimposed on their pairs.<br>
+							•	Reactions involving stereospecific reagents have one of three outcomes: stereospecificity can be lost, inverted or retained.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseTwo">
+			      <h4 class="panel-title">
+			        <a>
+			          Enantiomers and Diastereomers
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseTwo" class="panel-collapse collapse">
+			      <div class="panel-body">
+			        <p>
+								<%= image_tag "ch701-chiral-center.png", size: "180x160", class: "center-img" %>
+								•	Here we see a stereogenic carbon and as we said earlier none of the substituents are duplicated. Each substituent is unique.<br>
+								•	If there is a molecule with a carbon atom that has four unique substituents, that carbon is called a stereogenic or chiral center.<br>
+								<%= image_tag "ch702-enantiomers.png", size: "350x180", class: "center-img" %>
+								•	Every molecule does not have the same spatial arrangement of atoms. When their spatial arrangement differs the result is a stereoisomer. In nature everything has a mirror image. These mirror image pairs can be classified as either Enantiomers or Diastereomers.<br> 
+								<%= image_tag "ch703-Diastereomers vs Enantiomers.png", size: "360x420", class: "center-img" %>
+								•	Enantiomers are superimposable with their mirror image stereoisomers. Diastereomers are stereoisomers that are not mirror images and therefore are not superimposable.<br>
+								• Notice how enantiomers have opposite R/S notations at each chiral center but diastereomers have one chiral center with the same R/S notation but the other is opposite. Therefore always use
+								R/S notation to help guide you as you determined if a molecule has and enantiomeric of diastereomeric pair.<br>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseThree">
+			      <h4 class="panel-title">
+			        <a>
+			          Chiral vs. Achiral
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseThree" class="panel-collapse collapse">
+			      <div class="panel-body">
+			        <p>
+								•	Chirality is used to describe the superimposability of mirror image pairs.<br>
+								<%= image_tag "ch704-enantiomer-view1.png", size: "320x110", class: "center-img" %>
+								•	In the case of enantiomers when we try to superimpose the mirror image we see that it is no possible to have them overlap nicely.<br>
+								<%= image_tag "ch705-enantionmers-view2.png", size: "320x110", class: "center-img" %>
+								•	One bromine molecule points towards us and the other point away into the screen. Therefore enantiomers are said to me chiral. Chiral molecules are asymmetric.<br>
+								•	However molecules that are not superimposable on their mirror images or have a plane of symmetry are achiral.<br>
+								<%= image_tag "ch706-internal symmetry.png", size: "140x140", class: "center-img" %>
+								•	Here we can see a plane of symmetry which means the molecule can superimpose itself on its mirror image. This molecule is achiral.<br> 
+
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseFour">
+			      <h4 class="panel-title">
+			        <a>
+			          R-S Notation
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseFour" class="panel-collapse collapse">
+			      <div class="panel-body">
+			        <p>
+								<%= image_tag "ch704-enantiomer-view1.png", size: "320x100", class: "center-img" %><br>
+								•	When these mirror image stereoisomers were discovered a new system of naming was designed the R-S notation system to keep track of stereoisomers at their stereogenic centers. This helps us determine absolute configuration. The rules for naming are below:<br>
+								<%= image_tag "ch707-RS Notation view1.png", size: "320x100", class: "center-img" %>
+								•	Step 1: Look at the immediate atoms connected to the chiral center. Rank the substituent atoms by atomic number, a higher number means greater precedence. If there are ties, move outward one atom on each substituent group and rank again.<br>
+								•	Step 2: Look at the molecule straight on. Orient the lowest ranked group away from you. Imagine you are holding that group in your hand as you look at the whole molecule straight on.<br>
+								•	Step 3: Excluding the lowest ranked group, trace through the atom ranks from highest to lowest. If your trace is counterclockwise the absolute configuration is S, if your trace is clockwise the absolute configuration is R.<br>
+								<%= image_tag "ch708-RS Notation view2.png", size: "330x160", class: "center-img" %>
+								•	Here the highest ranked group is labeled one and the rank decreases by number. When I trace ranks in decreasing order for each compound, we can see the clockwise and counterclockwise motion.<br>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseFive">
+			      <h4 class="panel-title">
+			        <a>
+			          Fisher Projections
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseFive" class="panel-collapse collapse">
+			      <div class="panel-body">
+			        <p>
+								<%= image_tag "ch709-fisher projection.png", size: "420x150", class: "center-img" %>
+								•	Another way of viewing molecules is through fisher projections. Vertical lines indicate point down or away from the viewer and horizontal lines mean the molecule points outward towards the viewer.<br>
+								•	Above you can see how fisher projections are applied to molecules with multiple carbons. Its important to not that fisher projection requires that the end groups are pointing downwards.<br>
+								<%= image_tag "ch710-erythro vs threo.png", size: "330x140", class: "center-img" %>
+								•	Fisher projections can be used to show substituent position on diastereomers. If the group of interest are on the same side we denote it as threo if there are opposite we use erythro.<br>
+								<%= image_tag "ch711-meso forms.png", size: "330x140", class: "center-img" %>
+								•	Meso forms are achiral molecules that have chiral centers. Their stereocenters are identical but with opposite R/S notations. <br> 
+								•	Fisher projections can help us easily identify meso compounds: if the molecule has a plane of symmetry that produces superimposable mirror image halves than we call them meso.<br>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseSix">
+			      <h4 class="panel-title">
+			        <a>
+			          Reactions at Stereogenic Centers
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseSix" class="panel-collapse collapse">
+			      <div class="panel-body">
+			        <p>
+			        • A important fact to remember is that reaction with stereoisomeric reactants form stereospecific products.<br>
+			        <%= image_tag "ch712-reaction1.png", size: "320x100", class: "center-img" %>
+			        • The cis formation of 2-Butene yields a pair of enantiomers. You can confirm by using R/S notation.<br>
+			        <%= image_tag "ch713-reaction2.png", size: "320x100", class: "center-img" %>
+			        • However the trans formation of 2-Butene yields a compound that is meso. If you compare it to the mirror image, in the fisher projection form you can see the internal plane of symmetry.<br>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+
+
+			</div>
+
+
+
+
+
+
+		</div>
+		<ul class="pager">
+		  <li class="previous">
+		  	<%= link_to "Back", chapter06_path, class: "text-left" %>
+		  </li>
+		  <li class="next">
+		  	<%= link_to "Next", chapter08_path, class: "text-right" %>
+		  </li>
+		</ul>
+		<%= render 'pages/disqus_board' %>
+	</div>
+

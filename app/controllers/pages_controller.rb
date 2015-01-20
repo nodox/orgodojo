@@ -13,35 +13,39 @@ class PagesController < ApplicationController
   def soon
   end
 
-  def chapter1
+  def chapter01
   end
 
-  def chapter2
+  def chapter02
   end
 
-  def chapter3
+  def chapter03
   end
 
-  def chapter4
+  def chapter04
   end
 
-  def chapter5
+  def chapter05
   end
 
-  def chapter6
+  def chapter06
   end
 
-  def chapter7
+  def chapter07
   end
 
-  def chapter8
+  def chapter08
   end
 
-  def chapter9
+  def chapter09
   end
 
   def chapter10
   end
+
+  def chapter11
+  end
+
 
   def test
   end

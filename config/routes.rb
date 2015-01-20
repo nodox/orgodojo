@@ -9,17 +9,18 @@ Rails.application.routes.draw do
 
   # Notation from RoR tutorial sample_app
   match '/soon', to: 'pages#soon', via: 'get'
-  match '/chapter1', to: 'pages#chapter1', via: 'get'
-  match '/chapter2', to: 'pages#chapter2', via: 'get'
-  match '/chapter3', to: 'pages#chapter3', via: 'get'
-  match '/chapter4', to: 'pages#chapter4', via: 'get'
-  match '/chapter5', to: 'pages#chapter5', via: 'get'
-  match '/chapter6', to: 'pages#chapter6', via: 'get'
-  match '/chapter7', to: 'pages#chapter7', via: 'get'
-  match '/chapter8', to: 'pages#chapter8', via: 'get'
-  match '/chapter9', to: 'pages#chapter9', via: 'get'
+  match '/chapter01', to: 'pages#chapter01', via: 'get'
+  match '/chapter02', to: 'pages#chapter02', via: 'get'
+  match '/chapter03', to: 'pages#chapter03', via: 'get'
+  match '/chapter04', to: 'pages#chapter04', via: 'get'
+  match '/chapter05', to: 'pages#chapter05', via: 'get'
+  match '/chapter06', to: 'pages#chapter06', via: 'get'
+  match '/chapter07', to: 'pages#chapter07', via: 'get'
+  match '/chapter08', to: 'pages#chapter08', via: 'get'
+  match '/chapter09', to: 'pages#chapter09', via: 'get'
 
   match '/chapter10', to: 'pages#chapter10', via: 'get'
+  match '/chapter11', to: 'pages#chapter11', via: 'get'
   
   match '/test', to: 'pages#test', via: 'get'
 

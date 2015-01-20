@@ -1,0 +1,384 @@
+
+<%= render 'pages/chapters_header' %>
+
+
+
+<div class="container text-color">
+	<div class="row">
+
+
+		<!-- originally was: <div class="col-md-12"> -->
+		<div class="col-md-12">
+		<h1 class="center"> Chapter 6 - Addition Reactions </h1>
+
+
+
+			<div class="panel-group">
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseOne">
+			      <h4 class="panel-title">
+			        <a>
+			          Overview
+			        </a>
+			      </h4>
+			    </div>
+
+
+
+			    <div id="collapseOne" class="panel-collapse collapse in">
+			      <div class="panel-body">
+			        <p>• Addition reactions are used to introduce new functional groups into your molecule when double bonds are present.<br>
+							•	The major product of these reactions is described by Markovnikov’s rule which states the electrophile prefers the carbon with the least hydrogens and that the hydrogen on the electrophile prefers the carbon with the most hydrogens. When obeyed we say the Markovnikov addtion occurs or the Markovnikov product is preferred.<br>
+							• If the converse occurs then we say the anti-Markovnikov product is preferred.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseTwo">
+			        <a>
+			        	Hydration
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseTwo" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch601-Hydration of alkene.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			        <p>• This is one of the many ways to introduce a hydroxyl group into your compound.
+							</p>
+							<h4 class="emphasis">Reactivity</h4>
+							<p>• N/A
+							</p>
+
+							<h4 class="emphasis">Regioselectivity</h4>
+							<p>•	Obeys Markovnikov’s rule.
+							</p>
+							<h4 class="emphasis">Stereoselectivity</h4>
+							<p>• This reaction is not stereoselective because the hydroxyl group is added to a carbocation intermediate. Carbocations are sp2 hybridized so they are planar.</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+							<%= image_tag "ch611-Hydration-mechanism.png", size: "500x380", class: "center-img" %>
+							•	In the first sequence a Hydrogen is abstrated from the acid. <br>
+							•	Water then attacks the carbocation.<br>
+							•	Abstration of a Hydrogen by the acid turned base yields the desired alcohol.<br>
+							</p>
+
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseThree">
+			        <a>
+			        	Oxymercuration-Demercuration
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseThree" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch602-Oxymercuration addition reaction.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>			      	
+			      	<p>• Another method used to add hydroxyl groups. This one might be more useful in the lab and yield higher amounts of product. The mercury agent acts as a great leaving group.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>• N/A</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>• Markovnikov’s Rule is obeyed.</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+							<p>• N/A</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+
+								<%= image_tag "ch612-Oxymercuration-demercuration.png", size: "500x500", class: "center-img" %>
+								•	The first sequence involves alkene attack of the oxymercuric agent which forms a strained ring structure.<br>
+								•	A nucleophilic attack at the most substituted position by water relieves the ring strain.<br>
+								•	The acetic acid group displaced earlier acts as a nuclophilic base and abstracts a proton (hydrogen).<br>
+								•	The sodium borohydride reagent serves as a source for anionic hydrogen which can displace the oxymercuric leaving group.<br>
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseFour">
+			        <a>
+			        	Hydroboration Oxidation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseFour" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch603-Hydroboration oxidation Addition reaction.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+							<p>•	At some point you might want to add a hydroxyl group that disobeys the Markovnikov rule. 
+							</p>
+							<h4 class="emphasis">Reactivity</h4>
+							<p>•	N/A
+							</p>
+							<h4 class="emphasis">Regioselectivity</h4>
+							<p>•	Ants-Markovnikov product is formed.
+							</p>
+							<h4 class="emphasis">Stereoselectivity</h4>
+							<p>•	The –H and –OH groups add from the same face of the double bond. This is called syn addition.<br>
+							•	In this example both the proton and hydroxyl group add from behind/below the double bond as you can see from the dashed line on the hydroxyl group. The proton we’ve added doesn’t get a dashed line because there is symmetry at the carbon center, which means it is not a stereogenic center.
+							</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+
+								<%= image_tag "ch613-hydroboration-oxidation-mechanism.png", size: "480x480", class: "center-img" %>
+								•	A stereospecific hydride attack occurs repeatedly until all anionic hydrogens on boran are replaced with your limiting reagent.<br>
+								•	At the same time the peroxide agent is modified and attacks boran.<br>
+								•	The hydroxide base then attacks all borans and the new anionic oxygen on your product abstracts an hydrogen from water.<br>
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseFive">
+			        <a>
+			        	Hydrogenation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseFive" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch604-Hydrogenation addition reaction.png", size: "600x90", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>•	Metals are often used to introduce various functional groups to a compound. The above reaction can use any of the metals indicated with hydrogen gas to get the desired product.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>•	Any metal works well with this reaction.</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>•	N/A</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+							<p>•	The hydrogens atom from the same face of the double bond. The wedge bond is not needed because that carbon is not a stereogenic center but it is present for visualization purposes.
+							</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>• The alkene touches the surface of the metal where the hydrogen gas has collected and picks up two hydrogens.
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseSix">
+			        <a>
+			        	Halohydration
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseSix" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch605-Halohydration addition reaction.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>• This one way of adding two different functional groups anti to each other on the same molecule.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>•	N/A</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>•	The hydroxyl group forms at the most substituted position.</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+							<p>•	Anti-addition occurs. The hydroxyl group attacks the halonium ion complex form the opposite side.
+							</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+								<%= image_tag "ch614-Halohydration-mechanism.png", size: "500x460", class: "center-img" %>
+								•	The alkene first attacks the bromine electrophile which donates a bromide atom to form a halonium ion.<br>
+								•	Nucleophilic attack by water at the most substituted position relieves ring strain.<br>
+								•	The remaining bromide ion abstract a proton to be stabilized.<br>
+							</p>
+
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseSeven">
+			        <a>
+			        	Hydrohalogenation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseSeven" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch606-Hydrohalogenation addition reactions.png", size: "600x110", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>• This is a great way to introduce good leaving groups.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>• HI > HBr > HCl >> HF</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>• The markovnikov product is formed.</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+							<p>• Addition occurs with a planar carbocation intermediate therefore no specificity because attack can occur on both face of molecule.
+							</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+								<%= image_tag "ch615-Hydrohalogenation-mechanism.png", size: "500x280", class: "center-img" %>
+								•	The alkene attack the bromine reagent and the resulting bromide ion bonds to the carbocation for stabilization.<br>
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseEight">
+			        <a>
+			        	Hydrohalogenation: Hydrogen Peroxide Reagents
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseEight" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch607-HBr and peroxide addition reaction.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>•	This method allows you to add good halide leaving groups at the anti-markovnikov position.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>•	HI > HBr > HCl >> HF</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>•	Anti-markovnikov product is preferred.</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+							<p>•	N/A</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+								<%= image_tag "ch616-HBr-peroxide-mechanism.png", size: "520x340", class: "center-img" %>
+								•	The peroxide reagent undergoes free radical cleavage to abstract a one electron proton and yield a radical bromide species.<br>
+								•	The radical bromide bonds to the starting reagent so as to form a stable free radical intermediate.<br>
+								•	Termination occurs when the free radical species abstracts a proton radical.<br>
+							</p>
+
+			      </div>
+			    </div>
+			  </div>
+
+
+			   <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseNine">
+			        <a>
+			        	Halogenation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseNine" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch608-Halogenations addition reaction.png", size: "600x120", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>• This method is great for adding two halogen groups. The reaction also serves as  a precursor for triple bond formation.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>• Br<sub>2</sub> and Cl<sub>2</sub> are the most suitible reagents.</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>• N/A </p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+			      	<p>• Halogen groups are anti to each other.</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+								<%= image_tag "ch617-Halogenation-mechanism.png", size: "500x300", class: "center-img" %>
+								• The alkene abstracts a bromine to form a halonium ion.<br>
+								• The bromide ion attacks the molecule and pushes the other bromine into an anti configuration.<br>
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseTen">
+			        <a>
+			        	Ozonolysis
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseTen" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch609-Ozonolysis addition reaction.png", size: "600x110", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>• This reaction is a convinent way to create carbonyl compounds from alkenes.<br>
+			      		• The cleavage occurs right down the middle of the double bond.
+			      	</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>• Reductive workups alkenes, with free hydrogens, precursor will yield an aldehyde (product a).<br>
+			      		• Oxidative workups will yield a carboxylic acid if a hydrogen substituent is on the alkene (product b).
+			      	</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>• N/A</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+			      	<p>• N/A</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>• Think about cleaving the double bond down the middle and then closing the cleaved sites with oxygens. This yields the ketones or aldehydes depending on subsitutents on the molecule.</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseEleven">
+			        <a>
+			        	Epoxidation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseEleven" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	<%= image_tag "ch610-Epoxidation.png", size: "600x100", class: "center-img" %>
+			      	<h4 class="emphasis">Overview</h4>
+			      	<p>• Epoxidation is a great way to introduce other functional groups via ring opening reactions.</p>
+			      	<h4 class="emphasis">Reactivity</h4>
+			      	<p>• Very reactive because of ring strain.</p>
+			      	<h4 class="emphasis">Regioselectivity</h4>
+			      	<p>• N/A</p>
+			      	<h4 class="emphasis">Stereoselectivity</h4>
+			      	<p>• The bonds form syn to each other.</p>
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+								<%= image_tag "ch618-epoxidation-mechanism.png", size: "560x140", class: "center-img" %>
+								• This is a concerted reaction. The process begins with alkene attack and works its way around. Follow the arrows from the alkene attack.
+			      </div>
+			    </div>
+			  </div>
+
+
+			</div>
+
+
+		</div>
+
+
+	</div>
+	<ul class="pager">
+	  <li class="previous">
+	  	<%= link_to "Back", chapter05_path , class: "text-left" %>
+	  </li>
+	  <li class="next">
+	  	<%= link_to "Next", chapter07_path , class: "text-right" %>
+	  </li>
+	</ul>
+
+	<%= render 'pages/disqus_board' %>
+</div>
+
+

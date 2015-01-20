@@ -1,0 +1,161 @@
+
+<%= render 'pages/chapters_header' %>
+
+
+<div class="container text-color">
+	<div class="row">
+		<div class="col-md-12">
+		<h1 class="center"> Chapter 5 - Alkenes</h1>
+
+
+			<div class="panel-group">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" data-toggle="collapse" href="#collapseOne">
+			      <h4 class="panel-title">
+			        <a>
+			          Alkenes: An Overview
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseOne" class="panel-collapse collapse in">
+			      <div class="panel-body">
+							<h4 class="emphasis">Properties</h4>
+							<p>
+							<%= image_tag "ch501-Simple Alkenes.png", size: "300x160", class: "center-img" %>
+							• Alkenes can assume two stereoisomeric configurations: cis and trans.<br>
+							•	When the groups are opposite we denote the alkene as trans and then they are on the same side the groups are cis to each other. Note the distinct shape of both stereoisomers.<br>
+							•	Trans is more stable than cis because steric hindrance is minimized within the molecule. There is less electron repulsion between the two trans substituents.
+							<%= image_tag "ch502-E-Z Alkenes.png", size: "300x160", class: "center-img" %>
+							•	When there are multiple complex functional groups on an alkene we use the E-Z notation.<br>
+							•	If the dominate groups are opposite each other use E before the name and if they are on the same side we use Z before the molecule name.<br>
+							•	To use E-Z notation, start at the sp2 carbon of the double bond, move outward, and compare the substituents on each carbon.<br>
+							•	Compare the carbons by atomic number until there is a point of difference. The substituent that has the greater atomic number is the dominate group.<br>
+							</p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseTwo">
+			        <a>
+			          Alcohol Dehydration
+			        </a>
+			      </h4>
+			    </div>
+
+
+			    <div id="collapseTwo" class="panel-collapse collapse">
+			      <div class="panel-body">
+							<h4 class="emphasis">Reaction Overview</h4>
+							<p>
+							<%= image_tag "ch503-Alcohol dehydration.png", size: "300x90", class: "center-img" %>
+							•	This is called a beta-hydride elimination reaction.<br>
+							•	Alcohols in the presence of heat and acid will generate alkenes via dehydration.<br>
+							•	H<sub>3</sub>PO<sub>4</sub> can also be used as well as other strong acids.<br>
+							•	This reaction follows an E1 mechanism.<br>
+							</p>
+
+							<h4 class="emphasis">Reactivity</h4>
+							<p>• Alcohol Substitution: (slowest) 1° <  2°  <  3° (fastest) <br>
+							</p>
+
+							<h4 class="emphasis">Regioselectivity</h4>
+							<p>
+							<%= image_tag "ch504-Zaitsev Product.png", size: "320x90", class: "center-img" %>
+							• In the presence of other functional groups the major product is formed at the most substituted position. This is called Zaitsev’s Rule.
+
+							</p>
+
+							<h4 class="emphasis">Stereoselectivity</h4>
+							<p>• The trans product is preferred because it is most stable.<br>
+							</p>	
+
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+							<%= image_tag "ch505-dehydration of alcohols mechanism.png", size: "340x280", class: "center-img" %>
+							•	This is the E1 mechanism for alcohol dehydration. Notice that it has a carbocation intermediate as the product of step two. This is also the slow step of the reaction.<br>
+							•	In this pathway hydride or methyl shifts can occur in order to achieve a more stable carbocation intermediate.<br>
+							</p>
+
+
+			      </div>
+			    </div>
+			  </div>
+
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title" data-toggle="collapse" href="#collapseThree">
+			        <a>
+			          Dehydrohalogenation
+			        </a>
+			      </h4>
+			    </div>
+
+			    <div id="collapseThree" class="panel-collapse collapse">
+			      <div class="panel-body">
+							<h4 class="emphasis">Reaction Overview</h4>
+							<p>
+
+							<%= image_tag "ch506-dehydrohalogenation.png", size: "300x90", class: "center-img" %>
+							• Halides can be used to create double bonds via dehydration. A strong base (one with a negative charge) and its conjugate acid are necessary for this type of reaction.<br>
+							•	This reaction follows an E2 mechanism.<br>
+							•	In cyclohexane molecules the halogen and proton to be abstracted must be in the trans configuration. To achieve this ring interconversions might be needed.<br>
+
+							</p>
+
+							<h4 class="emphasis">Reactivity</h4>
+							<p>
+							•	Rate of dehydration by leaving group: (fastest) RI > RBr > RCl >> RF (Slowest)<br>
+							•	RI proceeds the fastest because it has a weak carbon-iodide bond due to the large size of iodide.<br>
+
+							</p>
+
+							<h4 class="emphasis">Regioselecitivty</h4>
+							<p>• The more substituted double bond that forms from an anti coplanar dehydration is preferred.<br>
+							</p>
+
+							<h4 class="emphasis">Stereoselectivity</h4>
+							<p>
+							•	The proton to be abstracted and halogen must but anti or trans to each other.<br>
+							</p>
+
+							<h4 class="emphasis">Mechanism of Action</h4>
+							<p>
+							<%= image_tag "ch507-dehalo-mechanism.png", size: "280x100", class: "center-img" %>
+							•	This is the E2 pathway. This is a concerted one step reaction. The reaction is bimolecular because two species are involved in the slow step: the base and the halogen.
+							</p>
+
+
+			      </div>
+			    </div>
+			  </div>
+
+
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<ul class="pager">
+	  <li class="previous">
+	  	<%= link_to "Back", chapter04_path , class: "text-left" %>
+	  </li>
+	  <li class="next">
+	  	<%= link_to "Next", chapter06_path, class: "text-right" %>
+	  </li>
+	</ul>
+
+	<%= render 'pages/disqus_board' %>
+</div>
+
+
+
+
