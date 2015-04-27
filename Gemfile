@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # I'm currently using ruby 2.1.1 but I learned to make this with ruby 2.0.0 would this be a problem later in the future?
-ruby '2.1.1' 
+ruby '2.1.6' 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
