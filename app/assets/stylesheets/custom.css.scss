@@ -1,33 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-
-$body-bg:                      white;
-$font-family-sans-serif:       'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                45px;
-$navbar-default-bg:            white;
-$navbar-default-brand-color:   #ff4a4a; 
-
-$brand-primary:                #ff4a4a;  /* how does this style the sign up button?? */
-$btn-primary-border: darken($brand-primary, 0%);
-
-
-$brand-default: #F5D76E;
-$btn-default-border: darken($brand-default, 0%);
-
 @import 'bootstrap';
+
+
 
 body {
 	color: white;
 }
 
 /* Navigation section */
-.navbar-brand {
-  	font-weight: bold;
+
+.navbar-page-home {
+	background-color: #D32F2F;
+
+}
+
+a.navbar-brand.brand-page-home {
+  color: white;
+}
+
+a.navbar-brand.brand-page-home:hover {
+  color: white;
 }
 
 .navbar {
-		margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
+.navbar-page-home .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-page-home .navbar-nav > li > a:hover {
+	color: white;
+}
 
 /* Welcome section */
 .center {
