@@ -41,6 +41,48 @@ body {
 
 }
 
+.welcome-section {
+	background-image: url("orgo-lab.jpg");
+
+	height: 400px; 									
+  background-repeat: no-repeat;		
+  background-position: 50% 50%; 	
+  background-attachment: scroll;		
+
+
+  -webkit-background-size: cover;	/* Chrome & Safari specific */
+  -moz-background-size: cover;		/* Mozilla Firefox */
+  -o-background-size: cover;			/* Opera */
+  background-size: cover;					/* Cover the width of the container */
+
+
+	margin-top: -35px;
+	text-align: center;
+}
+
+.welcome-desc {
+	position: relative;
+	top: 80px;
+}
+
+.title, .subtext {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 135px;
+	padding: 0;
+}
+
+.subtext {
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+
 .benefits-title {
 
 }
