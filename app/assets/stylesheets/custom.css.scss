@@ -17,16 +17,19 @@ body {
 
 /* Navigation section */
 
-.navbar-page-home {
+.navbar-page-home, {
 	background-color: #D32F2F;
-
 }
 
-a.navbar-brand.brand-page-home {
+
+
+a.navbar-brand.brand-page-home,
+a.navbar-brand.brand-page-chapters {
   color: white;
 }
 
-a.navbar-brand.brand-page-home:hover {
+a.navbar-brand.brand-page-home:hover,
+a.navbar-brand.brand-page-chapters:hover  {
   color: white;
 }
 
