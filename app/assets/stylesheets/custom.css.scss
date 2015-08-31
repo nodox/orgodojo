@@ -19,6 +19,7 @@ body {
 
 
 
+
 a.navbar-brand.brand-page-home,
 a.navbar-brand.brand-page-chapters {
   color: white;
@@ -149,10 +150,6 @@ a.navbar-brand.brand-page-chapters:hover  {
 		margin-top: 0px;
 }
 
-.h-caption {
-
-}
-
 .h-body {
 		font-size: 15px;
 }
@@ -166,10 +163,6 @@ a.navbar-brand.brand-page-chapters:hover  {
 		/* width: 35%; */
 		width: 50%;
 		font-size: 1.2em;
-		/* position: relative; does this do anything */
-		/* text-align: absolute;  does this do anything */
-
-		/* add if statement so that once one small device only a few words show */
 }
 
 .btn-benefit:hover {
@@ -178,6 +171,9 @@ a.navbar-brand.brand-page-chapters:hover  {
 
 }
 
+.icon-page-home {
+	font-size: 46px;
+}
 
 
 
