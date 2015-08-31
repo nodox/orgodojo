@@ -22,6 +22,7 @@ module Orgodojo
 
     #required for devise/heroku
     config.assets.initialize_on_precompile = false
+    config.assets.paths << "#{Rails}/vendor/assets/fonts"
 
   end
 end
