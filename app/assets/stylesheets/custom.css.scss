@@ -14,9 +14,25 @@ body {
 }
 
 
+
+
+
 /*=================================
   Navigation section
 =================================*/
+
+.navbar-default .navbar-toggle {
+	border-color: #D32F2F;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: #D32F2F;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
 
 .navbar-page-home {
 	background-color: #D32F2F;
@@ -47,7 +63,11 @@ a.navbar-brand.brand-page-chapters:hover  {
 	color: white;
 }
 
-/* Welcome section */
+
+/*=================================
+  Welcome section
+=================================*/
+
 .center {
   	text-align: center;
 }
@@ -89,12 +109,12 @@ a.navbar-brand.brand-page-chapters:hover  {
 }
 
 .title {
-	font-size: 135px;
+	font-size: 70px;
 	padding: 0;
 }
 
 .subtext {
-	font-size: 28px;
+	font-size: 22px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
@@ -105,7 +125,6 @@ a.navbar-brand.brand-page-chapters:hover  {
 		color: white;
 		background-color: #D32F2F;
 		border-style: none;
-		box-shadow: 0px 4px 0px 2px #ac3737;  /* very cool button shadow effect  */
 		border-radius: 40px;
 		width: 50%;
 		font-size: 1.0em;
@@ -118,8 +137,10 @@ a.navbar-brand.brand-page-chapters:hover  {
 }
 
 
+/*=================================
+  Benefits section
+=================================*/
 
-/* Benefits Section */
 .benefits-bg {
 		background-color: #ffffff;
 		color: #000;
@@ -159,30 +180,15 @@ a.navbar-brand.brand-page-chapters:hover  {
 		font-size: 15px;
 }
 
-.btn-benefit {
-		color: white;
-		margin-top: 50px;
-		background-color: #F5D76E;
-		box-shadow: 0px 4px 0px 2px #FFA200;
-		border-radius: 40px;
-		/* width: 35%; */
-		width: 50%;
-		font-size: 1.2em;
-}
 
-.btn-benefit:hover {
-		background-color: #F5D76E;
-		border-color: #F5D76E;
-
-}
 
 i.glyphicon.icon-page-home {
 	font-size: 46px;
 }
 
-
-
-/* Footer Section */
+/*=================================
+  Footer section
+=================================*/
 
 .footer-above {
 
@@ -219,7 +225,11 @@ footer h3 {
  
 }
 
-/* Chapter Views */
+
+/*=================================
+  Chapter section
+=================================*/
+
 .text-color {
 	color: black;
 }
@@ -248,64 +258,46 @@ footer h3 {
 
 
 .chapter-select {
-	/* @ 705px of the document the pagers misalign with the form select menu */
-
 	margin-left: 10%;
 	margin-right: auto;
 
-
-
-
-
-	/* margin: 0 auto; --> centers objects also with float: none */
 }
 
 
-
-/* Advertisment View */
-/* Tell talyor you want Ads in an unordered list -- linkedin whos viewed your profile section */
-
-.custom-position {
-	background:none;
-    float: right;
-    height: auto;
-    overflow: hidden;
-    margin-top: 5.1em;
-    position: relative;
-    right: 0;
-    width: 300px;
-    padding: 0;
-}
-
-.custom-position > div {
-	min-height:250px;
-	background: red;
-	margin-bottom: 20px;
-	float: left;
-	width: 100%;
-}
-
-@media (max-width:640px) {
-  .custom-position { display: none; }
-}
+/*=================================
+  Ads by Google
+=================================*/
 
 
-
-.col-md-9 {
-	width: calc(100% - 330px);
-}
-
-.row-wrapper{
-	position: relative;
-
-}
-
-.wrapper{
-	width: 90% !important;
+ins.adsbygoogle.ad-sidebar {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
 
 
 
+/*=================================
+  Mobile Screen Breakpoints
+=================================*/
+
+@media screen and (min-width : 768px) {      /*  Small Devices  - smart phones */
+	.title {
+		font-size: 135px;
+	}
+
+	.subtext {
+		font-size: 28px;
+	}
+}
+
+@media screen and (min-width : 992px) {      /*  Medium Devices - desktops  */
+
+}
+
+@media screen and (min-width : 1200px) {      /*  Large displays  */
+
+}
 
