@@ -253,52 +253,20 @@ footer h3 {
 
 
 .chapter-select {
-	/* @ 705px of the document the pagers misalign with the form select menu */
-
 	margin-left: 10%;
 	margin-right: auto;
 
-
-
-
-
-	/* margin: 0 auto; --> centers objects also with float: none */
 }
 
 
 
-/* Advertisment View */
-/* Tell talyor you want Ads in an unordered list -- linkedin whos viewed your profile section */
 
-.custom-position {
-	background:none;
-    float: right;
-    height: auto;
-    overflow: hidden;
-    margin-top: 5.1em;
-    position: relative;
-    right: 0;
-    width: 300px;
-    padding: 0;
-}
-
-.custom-position > div {
-	min-height:250px;
-	background: red;
-	margin-bottom: 20px;
-	float: left;
-	width: 100%;
-}
 
 @media (max-width:640px) {
   .custom-position { display: none; }
 }
 
 
-
-.col-md-9 {
-	width: calc(100% - 330px);
-}
 
 .row-wrapper{
 	position: relative;
@@ -312,5 +280,8 @@ footer h3 {
 
 
 
-
-
+ins.adsbygoogle.ad-sidebar {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
