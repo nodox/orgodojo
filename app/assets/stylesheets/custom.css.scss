@@ -9,9 +9,25 @@ body {
 }
 
 
+
+
+
 /*=================================
   Navigation section
 =================================*/
+
+.navbar-default .navbar-toggle {
+	border-color: #D32F2F;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: #D32F2F;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
 
 .navbar-page-home {
 	background-color: #D32F2F;
